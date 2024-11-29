@@ -1,116 +1,118 @@
-![image](https://github.com/user-attachments/assets/7189aa5c-2353-40e8-8608-6b275eef5b14)# Bank Loan Report
+# Bank Loan Analysis Dashboard 🚀
 
-## Project Overview  
-This project provides an in-depth analysis of bank loan data, focusing on borrower characteristics, loan statuses, and associated risks. The analysis aims to assist banks in making informed decisions, managing risk, and optimizing loan portfolios.
+This project is part of my capstone coursework, where I applied skills learned during my academic journey, including SQL and Tableau. It demonstrates my ability to analyze and visualize data through interactive dashboards tailored for strategic decision-making.
 
----
+## Dashboard Overview 📊
 
-## Problem Statement  
-Banking institutions face challenges in assessing loan risk, managing portfolios, and ensuring regulatory compliance. By analyzing the dataset, this project provides insights into:
-- Borrower creditworthiness.
-- Loan performance trends.
-- Risk management strategies.
+The project consists of three primary dashboards: **Summary**, **Overview**, and **Detail**, each designed with custom self-created backgrounds for a seamless and professional aesthetic. These dashboards enable data-driven decision-making through clear, interactive visuals and comprehensive insights.
 
----
+**Dataset:**  
+The dataset used in this project contains loan-related data, including borrower details, loan amounts, repayment history, and loan statuses. This dataset is the foundation for calculating key performance indicators (KPIs) and generating visuals.  
+[view the Dataset](data/bank_loan_data.csv) 📂
 
-## Domain Knowledge  
-Bank loans are critical financial tools that enable individuals and businesses to manage financial needs and achieve goals. However, the complexity of assessing and managing loans requires in-depth data analysis. 
-
-### Key Aspects:
-1. **Data Sources**:
-   - Loan Applications.
-   - Credit Reports.
-   - Internal Records.
-   - Online Portals.
-   - Third-party Data.
-
-2. **Process of Granting a Loan**:
-   - Loan Application Submission.
-   - Identity and Credit Verification.
-   - Income and Employment Assessment.
-   - Risk Evaluation and Loan Approval.
-
-3. **Reasons for Analyzing Loan Data**:
-   - Risk Assessment.
-   - Fraud Detection.
-   - Portfolio and Credit Risk Management.
-   - Regulatory Compliance.
-   - Customer Insights.
+**Query Document:**  
+A meticulously crafted **Query Document** is attached, which:  
+- **Documents All Queries**: Outlines each query used for metrics and visuals in detail.  
+- **Ensures Accuracy**: Demonstrates how values are calculated and validated.  
+- **Supports Traceability**: Ensures that every data point in the dashboards is reliable and transparent.  
+[view the Query Document](queries/loan_queries.sql) 📄
 
 ---
 
-## Technologies Used  
-- **Languages**: SQL.  
-- **Tools**: Tableau.  
-- **Database Management**: MySQL.  
+## Dashboard Background 🎨
+
+The background for all three dashboards (Summary, Overview, and Detail) was designed in PowerPoint. The custom background enhances the visual appeal of each dashboard, providing a professional and cohesive look that aligns with the overall design.
+
+### Summary Dashboard  
+![Summary Dashboard](images/Tableau_Background1.jpg) 🏦
+
+### Overview Dashboard  
+![Overview Dashboard](images/Tableau_Background2.jpg) 📈
+
+### Detail Dashboard  
+![Detail Dashboard](images/Tableau_Background3.jpg) 💡
 
 ---
 
-## Dataset  
-The dataset contains details of bank loans, including borrower demographics, loan characteristics, and repayment statuses. The dataset was utilized to perform SQL queries for analyzing loan trends, borrower behaviors, and loan performance.
+### 1. Summary Dashboard 📊
 
-[Download the Dataset](data/bank_loan_data.csv)
+**Background and Purpose:**  
+The **Summary Dashboard** is designed to provide an overview of our bank's lending activities. Its clean and structured layout focuses on delivering critical metrics like total loans, funded amounts, and repayments, alongside the categorization of loans into 'Good Loans' and 'Bad Loans.'
 
----
+**Problem Statement:**  
+The report provides insights into key loan-related metrics and trends over time, enabling effective monitoring of the bank's lending portfolio and data-driven strategic planning.
 
-## Query Document  
-The query document contains SQL code and results for various analyses performed on the dataset, such as:
-- Loan status distribution.
-- Average interest rates by risk grade.
-- Borrower characteristics affecting loan approval.
+**Key Features:**  
+- **Loan Applications**: Total number and trends (Month-to-Date and Month-over-Month).  
+- **Funded Amounts**: Total and trends.  
+- **Amount Received**: Total repayment tracking.  
+- **Average Interest Rates**: Variations in lending cost.  
+- **Good Loans vs. Bad Loans KPIs**: Breakdown based on loan statuses.
 
-[Download the Query Document](queries/loan_queries.sql)
+**Background Design:**  
+The **Summary Dashboard** background employs a structured grid layout with a balanced color palette to enhance data readability and focus on KPIs.
 
----
-
-## Terminologies Used in Data  
-### Fields and Their Use in Banking  
-- **Loan ID**: Unique identifier for loans.  
-- **Address State**: Borrower's location.  
-- **Employee Length**: Borrower's employment stability.  
-- **Grade & Sub-Grade**: Credit risk classifications.  
-- **Home Ownership**: Housing status of borrowers.  
-- **Annual Income**: Borrower’s earnings to assess repayment capacity.  
-- **DTI (Debt-to-Income Ratio)**: Debt burden relative to income.  
-- **Loan Amount**: Principal amount borrowed.  
-- **Interest Rate**: Annual cost of borrowing.
-
-For a detailed explanation, refer to the project documentation.
+![Summary Dashboard](images/Summary.png) 📊
 
 ---
 
-## Dashboard Overview
+### 2. Overview Dashboard 🌍
 
-The project includes three key dashboards: **Summary**, **Overview**, and **Detail**. These dashboards help users understand different aspects of loan data, including general trends, detailed analyses, and summary statistics.  
-**Note**: All dashboards were built using a **self-created background** for a customized look and feel.
+**Background and Purpose:**  
+The **Overview Dashboard** provides a high-level analysis of critical metrics and trends using various chart types. Designed for dynamic insights, it helps in understanding regional trends, borrower behaviors, and loan purposes.
 
-### 1. Summary Dashboard  
-This dashboard provides a high-level view of the loan data, showcasing the key performance indicators such as loan amounts, interest rates, and borrower characteristics in an aggregated form.
+**Problem Statement:**  
+This dashboard visually represents trends in loan statuses, borrower distributions, and lending KPIs.
 
-![Summary Dashboard](images/Summary.png)
+**Key Features:**  
+1. **Monthly Trends by Issue Date** (Line Chart): Highlights how applications, funding, and repayments evolve over time.  
+2. **Regional Analysis by State** (Filled Map): Shows state-wise activity and disparities.  
+3. **Loan Term Analysis** (Donut Chart): Depicts term-based loan distribution.  
+4. **Employee Length Analysis** (Bar Chart): Examines trends based on employment history.  
+5. **Loan Purpose Breakdown** (Bar Chart): Analyzes loans by stated purposes.  
+6. **Home Ownership Analysis** (Tree Map): Explores metrics by home ownership categories.
 
-### 2. Overview Dashboard  
-The Overview dashboard offers insights into the loan statuses, risk classifications, and borrower distributions, helping users get an overview of the loan portfolio’s health.
+**Background Design:**  
+The **Overview Dashboard** background integrates regional maps and thematic icons to provide visual context, enhancing user engagement and understanding.
 
-![Overview Dashboard](images/Overview.png)
-
-### 3. Detail Dashboard  
-This dashboard provides a deep dive into the data, offering detailed insights into individual loan records, repayment statuses, and borrower-specific trends.
-
-![Detail Dashboard](images/Details.png)
-
----
-
-## Insights and Conclusion  
-By analyzing the data:
-- Banks can improve risk assessment models.
-- Tailored loan products can be designed for different borrower segments.
-- Trends in loan performance can guide better decision-making.
+![Overview Dashboard](images/Overview.png) 🌐
 
 ---
 
-## How to Run the Project
+### 3. Detail Dashboard 🔍
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/bank-loan-report.git
+**Background and Purpose:**  
+The **Detail Dashboard** consolidates all critical metrics into a single view. It provides an interactive and in-depth exploration of loan data, including borrower demographics and repayment trends.
+
+**Problem Statement:**  
+This dashboard offers users a comprehensive and user-friendly interface for analyzing detailed loan portfolio performance and borrower-specific insights.
+
+**Key Features:**  
+- Detailed metrics for loan statuses, borrower profiles, and repayment patterns.  
+- Interactive filters for customized views.
+
+**Background Design:**  
+The **Detail Dashboard** background features subtle textures and data-grouping frameworks, promoting ease of navigation and clarity for granular details.
+
+![Detail Dashboard](images/Details.png) 📋
+
+---
+
+### Data Accuracy and Validation ✅
+
+To ensure the reliability of insights:  
+- **Query Document**: The attached Query Document outlines every query used in the dashboards, demonstrating accuracy and traceability.  
+- **Validation**: All metrics and calculations have been cross-checked for consistency, ensuring reliable data for decision-making.  
+- **Dataset Integrity**: The dataset was cleaned and verified to ensure completeness and correctness before analysis.
+
+These steps ensure the dashboards provide accurate, actionable, and trustworthy insights into loan performance and trends.  
+## License 📝
+This project is licensed under the  Apache License – see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements 🌟
+- Special thanks to [Data Source](kaggle.com/datasets) for providing the loan dataset.
+- Inspiration for this project came from [Tableau Training Resources](https://www.tableau.com/learn/training).
+
+## Contact 📬
+- Email: ashwinkumarayyappan@gmail.com
+- LinkedIn: [Ashwin kumar A](https://www.linkedin.com/in/ashwin-kumar-a-848650290/overlay/about-this-profile/)

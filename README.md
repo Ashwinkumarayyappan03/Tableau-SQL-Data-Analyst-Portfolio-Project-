@@ -33,6 +33,10 @@ The background for all three dashboards (Summary, Overview, and Detail) was desi
 ![Detail Dashboard](images/Tableau_Background3.jpg) 💡
 
 ---
+## Tableau Dashboard Link
+You can view the dashboard by clicking on the following link:
+[View Tableau Dashboard](https://public.tableau.com/authoring/Book1_17329707973630/SUMMARY#1)
+
 
 ### 1. Summary Dashboard 📊
 

@@ -15,7 +15,7 @@ A meticulously crafted **Query Document** is attached, which:
 - **Documents All Queries**: Outlines each query used for metrics and visuals in detail.  
 - **Ensures Accuracy**: Demonstrates how values are calculated and validated.  
 - **Supports Traceability**: Ensures that every data point in the dashboards is reliable and transparent.  
-[view the Query Document](queries/loan_queries.sql) 📄
+[view the Query Document](Query_Document.docx) 📄
 
 ---
 

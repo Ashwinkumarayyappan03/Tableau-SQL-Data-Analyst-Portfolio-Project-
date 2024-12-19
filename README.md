@@ -8,7 +8,7 @@ The project consists of three primary dashboards: **Summary**, **Overview**, and
 
 **Dataset:**  
 The dataset used in this project contains loan-related data, including borrower details, loan amounts, repayment history, and loan statuses. This dataset is the foundation for calculating key performance indicators (KPIs) and generating visuals.  
-[view the Dataset](data/bank_loan_data.csv) 📂
+[view the Dataset](financial_loan.csv) 📂
 
 **Query Document:**  
 A meticulously crafted **Query Document** is attached, which:  
